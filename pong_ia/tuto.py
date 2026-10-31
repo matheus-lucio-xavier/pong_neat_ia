@@ -135,6 +135,9 @@ if __name__ == "__main__":
     config = neat.Config(neat.DefaultGenome, neat.DefaultReproduction,
                          neat.DefaultSpeciesSet, neat.DefaultStagnation,
                          config_path)
+
     
-    #run_neat(config)
-    test_ia(config)
+    # run_neat(config) treina a ia
+    # test_ia(config) jogador contra a ia
+
+    run_neat(config)
